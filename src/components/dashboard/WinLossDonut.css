@@ -1,0 +1,68 @@
+.winloss-donut {
+    animation: fadeInUp 0.5s ease-out 0.3s both;
+    overflow: hidden;
+    min-width: 0;
+}
+
+.winloss-donut__title {
+    font-size: var(--fs-h2);
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+}
+
+.winloss-donut__chart {
+    position: relative;
+}
+
+.winloss-donut__center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    pointer-events: none;
+}
+
+.winloss-donut__rate {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.winloss-donut__rate-label {
+    font-size: var(--fs-caption);
+    color: var(--text-muted);
+}
+
+.winloss-donut__comparison {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-sm);
+}
+
+.winloss-donut__stat {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.winloss-donut__stat-label {
+    font-size: var(--fs-caption);
+    color: var(--text-muted);
+}
+
+.winloss-donut__stat-value {
+    font-size: var(--fs-body);
+    font-weight: 600;
+}
+
+.winloss-donut__divider {
+    width: 1px;
+    height: 32px;
+    background: var(--border-subtle);
+}

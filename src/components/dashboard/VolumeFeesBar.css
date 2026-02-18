@@ -1,0 +1,16 @@
+.volume-fees {
+    animation: fadeInUp 0.5s ease-out 0.35s both;
+    overflow: hidden;
+    min-width: 0;
+}
+
+.volume-fees__title {
+    font-size: var(--fs-h2);
+    font-weight: 600;
+    margin-bottom: var(--spacing-md);
+}
+
+.volume-fees__chart {
+    margin: 0 calc(-1 * var(--spacing-sm));
+    overflow: hidden;
+}

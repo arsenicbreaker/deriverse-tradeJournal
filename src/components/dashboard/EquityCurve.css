@@ -1,0 +1,40 @@
+.equity-curve {
+    animation: fadeInUp 0.5s ease-out 0.2s both;
+    overflow: hidden;
+    min-width: 0;
+}
+
+.equity-curve__header {
+    margin-bottom: var(--spacing-md);
+}
+
+.equity-curve__title {
+    font-size: var(--fs-h2);
+    font-weight: 600;
+}
+
+.equity-curve__chart {
+    margin: 0 calc(-1 * var(--spacing-sm));
+    overflow: hidden;
+}
+
+/* Shared chart tooltip */
+.chart-tooltip {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
+    box-shadow: var(--shadow-card);
+}
+
+.chart-tooltip__label {
+    font-size: var(--fs-caption);
+    color: var(--text-muted);
+    margin-bottom: 4px;
+}
+
+.chart-tooltip__value {
+    font-size: var(--fs-body);
+    font-family: var(--font-mono);
+    font-weight: 500;
+}
